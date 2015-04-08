@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		429606751AD4AA1600C667FC /* DuplicateLibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 429606741AD4AA1600C667FC /* DuplicateLibrary.h */; };
+		429606771AD4AA1600C667FC /* DuplicateLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 429606761AD4AA1600C667FC /* DuplicateLibrary.m */; };
+		4296067D1AD4AA1600C667FC /* libDuplicateLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 429606711AD4AA1600C667FC /* libDuplicateLibrary.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4296067E1AD4AA1600C667FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 429606691AD4AA1600C667FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 429606701AD4AA1600C667FC;
+			remoteInfo = DuplicateLibrary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4296066F1AD4AA1600C667FC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				429606751AD4AA1600C667FC /* DuplicateLibrary.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		429606711AD4AA1600C667FC /* libDuplicateLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDuplicateLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		429606741AD4AA1600C667FC /* DuplicateLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DuplicateLibrary.h; sourceTree = "<group>"; };
+		429606761AD4AA1600C667FC /* DuplicateLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DuplicateLibrary.m; sourceTree = "<group>"; };
+		4296067C1AD4AA1600C667FC /* DuplicateLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DuplicateLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		429606821AD4AA1600C667FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4296066E1AD4AA1600C667FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		429606791AD4AA1600C667FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4296067D1AD4AA1600C667FC /* libDuplicateLibrary.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		429606681AD4AA1600C667FC = {
+			isa = PBXGroup;
+			children = (
+				429606731AD4AA1600C667FC /* DuplicateLibrary */,
+				429606801AD4AA1600C667FC /* DuplicateLibraryTests */,
+				429606721AD4AA1600C667FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		429606721AD4AA1600C667FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				429606711AD4AA1600C667FC /* libDuplicateLibrary.a */,
+				4296067C1AD4AA1600C667FC /* DuplicateLibraryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		429606731AD4AA1600C667FC /* DuplicateLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				429606741AD4AA1600C667FC /* DuplicateLibrary.h */,
+				429606761AD4AA1600C667FC /* DuplicateLibrary.m */,
+			);
+			path = DuplicateLibrary;
+			sourceTree = "<group>";
+		};
+		429606801AD4AA1600C667FC /* DuplicateLibraryTests */ = {
+			isa = PBXGroup;
+			children = (
+				429606811AD4AA1600C667FC /* Supporting Files */,
+			);
+			path = DuplicateLibraryTests;
+			sourceTree = "<group>";
+		};
+		429606811AD4AA1600C667FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				429606821AD4AA1600C667FC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		429606701AD4AA1600C667FC /* DuplicateLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 429606851AD4AA1600C667FC /* Build configuration list for PBXNativeTarget "DuplicateLibrary" */;
+			buildPhases = (
+				4296066D1AD4AA1600C667FC /* Sources */,
+				4296066E1AD4AA1600C667FC /* Frameworks */,
+				4296066F1AD4AA1600C667FC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DuplicateLibrary;
+			productName = DuplicateLibrary;
+			productReference = 429606711AD4AA1600C667FC /* libDuplicateLibrary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4296067B1AD4AA1600C667FC /* DuplicateLibraryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 429606881AD4AA1600C667FC /* Build configuration list for PBXNativeTarget "DuplicateLibraryTests" */;
+			buildPhases = (
+				429606781AD4AA1600C667FC /* Sources */,
+				429606791AD4AA1600C667FC /* Frameworks */,
+				4296067A1AD4AA1600C667FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4296067F1AD4AA1600C667FC /* PBXTargetDependency */,
+			);
+			name = DuplicateLibraryTests;
+			productName = DuplicateLibraryTests;
+			productReference = 4296067C1AD4AA1600C667FC /* DuplicateLibraryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		429606691AD4AA1600C667FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "JRG Developer";
+				TargetAttributes = {
+					429606701AD4AA1600C667FC = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					4296067B1AD4AA1600C667FC = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 4296066C1AD4AA1600C667FC /* Build configuration list for PBXProject "DuplicateLibrary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 429606681AD4AA1600C667FC;
+			productRefGroup = 429606721AD4AA1600C667FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				429606701AD4AA1600C667FC /* DuplicateLibrary */,
+				4296067B1AD4AA1600C667FC /* DuplicateLibraryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4296067A1AD4AA1600C667FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4296066D1AD4AA1600C667FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				429606771AD4AA1600C667FC /* DuplicateLibrary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		429606781AD4AA1600C667FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4296067F1AD4AA1600C667FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 429606701AD4AA1600C667FC /* DuplicateLibrary */;
+			targetProxy = 4296067E1AD4AA1600C667FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		429606831AD4AA1600C667FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		429606841AD4AA1600C667FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		429606861AD4AA1600C667FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		429606871AD4AA1600C667FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		429606891AD4AA1600C667FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DuplicateLibraryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4296068A1AD4AA1600C667FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DuplicateLibraryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4296066C1AD4AA1600C667FC /* Build configuration list for PBXProject "DuplicateLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				429606831AD4AA1600C667FC /* Debug */,
+				429606841AD4AA1600C667FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		429606851AD4AA1600C667FC /* Build configuration list for PBXNativeTarget "DuplicateLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				429606861AD4AA1600C667FC /* Debug */,
+				429606871AD4AA1600C667FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		429606881AD4AA1600C667FC /* Build configuration list for PBXNativeTarget "DuplicateLibraryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				429606891AD4AA1600C667FC /* Debug */,
+				4296068A1AD4AA1600C667FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 429606691AD4AA1600C667FC /* Project object */;
+}
